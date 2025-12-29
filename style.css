@@ -3,12 +3,14 @@
     src: url('font/AvenirNextLTPro-Regular.otf') format('opentype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
     --primary-red-pekat: #991b1b;
     --primary-red-soft: #fee2e2;
     --accent-red: #ef4444;
     --dark-blue: #1e293b;
-    --font-avenir: 'Avenir Next LT Pro', sans-serif;
+    --font-avenir: 'Inter', sans-serif;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
